@@ -1,0 +1,11 @@
+applications:
+- name: config-checker
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  random-route: true
+  path: target/config-checker-0.0.1-SNAPSHOT.jar
+  services:
+  - config-server
+  env:
+    TRUST_CERTS: api.sys.singapore.cf-app.com
