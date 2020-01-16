@@ -8,4 +8,4 @@ applications:
   services:
   - config-server
   env:
-    TRUST_CERTS: api.sys.singapore.cf-app.com
+    TRUST_CERTS: api.dhcpaas-sys-p03-edc5.dhc.corpintra.net
